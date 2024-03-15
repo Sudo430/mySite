@@ -90,8 +90,25 @@ main {
 #content{
     max-width: 500px;
     color: #c6c7c9;
+    text-align: center;
 }
 
 a {
     color: rgb(127, 246, 255);
+}
+
+/* mobile css */
+
+@media (max-width: 640px) {
+    #content{
+        max-width: 390px;
+    }
+
+    #contentSelector{
+        flex-wrap: wrap;
+        align-items: center;
+        width: 17em;
+        height: 2.3em;
+    }
+
 }
